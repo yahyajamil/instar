@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Vaziri;
+  src: url("./src/font/Vazir-Light-FD.woff") format("woff");
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: whitesmoke;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(212, 212, 212);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(193, 193, 193);
+}
+
+.category-btn.active {
+  background-color: #fff !important;
+  color: rgb(29, 76, 216) !important;
+}
+
+.footer-item.active {
+  color: rgb(29, 76, 216) !important;
+}
+
+main {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-top: -10px;
+}
+
+.card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
